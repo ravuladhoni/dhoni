@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int a=4;
+    float b=4.5;
+    double c=7.99;
+    char d='d';
+    printf("size of int:%zu",sizeof(a));
+     printf("\nsize of float:%zu",sizeof(b));
+     printf("\nsize of double:%zu",sizeof(c));
+     printf("\nsize of char:%zu",sizeof(d));
+}
