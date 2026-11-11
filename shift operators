@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int a=40;
+    int b=3;
+    ;printf("left operator is %d",a<<b);
+    printf("\nright operator is %d",a>>b);
+    
+    
+}
